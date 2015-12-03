@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TD2</string>
+    <string name="pays">Pais</string>
+    <string name="region">Zona</string>
+    <string name="superficie">Superficia</string>
+    <string name="population">Población</string>
+    <string name="maire">Alcalde</string>
+    <string name="temps">Tiempo</string>
+    <string name="temperature">Temperatura</string>
+</resources>
