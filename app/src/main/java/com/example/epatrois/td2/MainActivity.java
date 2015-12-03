@@ -54,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void addElementToDatabase(String value) {
+        Cursor resultSet = mydatabase.rawQuery("Select * from City where name like '"+value+"'", null);
+        if(resultSet.getCount()==0)
         mydatabase.execSQL("INSERT INTO City (name) VALUES ('" + value + "');");
     }
 
